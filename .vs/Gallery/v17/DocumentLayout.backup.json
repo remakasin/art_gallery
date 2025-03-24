@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F935D849-E4B7-40C1-899C-DC2EA6201936}|Gallery\\Gallery.pyproj|C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\static\\file.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F935D849-E4B7-40C1-899C-DC2EA6201936}|Gallery\\Gallery.pyproj|solutionrelative:Gallery\\static\\file.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F935D849-E4B7-40C1-899C-DC2EA6201936}|Gallery\\Gallery.pyproj|C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F935D849-E4B7-40C1-899C-DC2EA6201936}|Gallery\\Gallery.pyproj|solutionrelative:Gallery\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 225,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,8 +53,37 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "file.txt",
+              "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\static\\file.txt",
+              "RelativeDocumentMoniker": "Gallery\\static\\file.txt",
+              "ToolTip": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\static\\file.txt",
+              "RelativeToolTip": "Gallery\\static\\file.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-24T08:30:14.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "about.tpl",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\views\\about.tpl",
               "RelativeDocumentMoniker": "Gallery\\views\\about.tpl",
@@ -58,12 +91,11 @@
               "RelativeToolTip": "Gallery\\views\\about.tpl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPvZM9b4FRFMf/3l8iBrQSSSPB4AP4AEbL05h08A0YOndl6tLRZjGYBRGDwWiwiUjEIBIv9dAgqLfQe6/baj3VRiP9JSf3nnPv/efcc\u002B6VgZBOp\u002B/IECemp/4fmBN7vBWECBPM5/N9t9v9arFYbqh/LsPhsFOr1TQ\u002Bn\u002B9KTgNarZZo/U2MYjabbUTDTOdM8JL8n2Cv10M0GkUwGEQqleLR31Hy8YN6vY7lcolWqwWr1Qq/3494PA6n08l3HNDpdHC5XNzbI8mQClYqFTSbTajVatowLBYLFju2RqPBTx1gz6ZYLG49Hg8LvNPtdpFMJtHpdOBwOBAOh/nK95TLZXi9XvlJwe12i/l8jtVqxa5G7SfeBU82RU6WDAYDTCYTE8vlcgiFQkgkEphOp3yXFElTqtUqZrMZ9w5ks1kmWCqVUCgUYLPZYDQaQX4Y37FHkqEoimi32xLb7XbQ6/dfvd/vs9hgMGD\u002BZyQZkjrw2VfG4zFisRjsdjsCgQB7Ut9xsinHbDYbrNdrKBQKqFQqyGTs6Ae/NuUYpVLJmkPf5rHYZ5ggrQ\u002B1S8AEyVWeR6ORSN/eudAzk8nkhWiI1Ge5ZzKZe41G80Bqc039cyH1nZDvGREE4YmHLgXwBtoRze89YD5sAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-03-24T06:42:28.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:42:28.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "collection.tpl",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\views\\collection.tpl",
               "RelativeDocumentMoniker": "Gallery\\views\\collection.tpl",
@@ -71,12 +103,11 @@
               "RelativeToolTip": "Gallery\\views\\collection.tpl",
               "ViewState": "AgIAABAAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPvZM9b4FRFMf/3l8iBrQSSSPB4AP4AEbL05h08A0YOndl6tLRZjGYBRGDwWiwiUjEIBIv9dAgqLfQe6/baj3VRiP9JSf3nnPv/efcc\u002B6VgZBOp\u002B/IECemp/4fmBN7vBWECBPM5/N9t9v9arFYbqh/LsPhsFOr1TQ\u002Bn\u002B9KTgNarZZo/U2MYjabbUTDTOdM8JL8n2Cv10M0GkUwGEQqleLR31Hy8YN6vY7lcolWqwWr1Qq/3494PA6n08l3HNDpdHC5XNzbI8mQClYqFTSbTajVatowLBYLFju2RqPBTx1gz6ZYLG49Hg8LvNPtdpFMJtHpdOBwOBAOh/nK95TLZXi9XvlJwe12i/l8jtVqxa5G7SfeBU82RU6WDAYDTCYTE8vlcgiFQkgkEphOp3yXFElTqtUqZrMZ9w5ks1kmWCqVUCgUYLPZYDQaQX4Y37FHkqEoimi32xLb7XbQ6/dfvd/vs9hgMGD\u002BZyQZkjrw2VfG4zFisRjsdjsCgQB7Ut9xsinHbDYbrNdrKBQKqFQqyGTs6Ae/NuUYpVLJmkPf5rHYZ5ggrQ\u002B1S8AEyVWeR6ORSN/eudAzk8nkhWiI1Ge5ZzKZe41G80Bqc039cyH1nZDvGREE4YmHLgXwBtoRze89YD5sAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-03-24T06:37:56.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:37:56.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "contact.tpl",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\views\\contact.tpl",
               "RelativeDocumentMoniker": "Gallery\\views\\contact.tpl",
@@ -84,17 +115,16 @@
               "RelativeToolTip": "Gallery\\views\\contact.tpl",
               "ViewState": "AgIAABcAAAAAAAAAAAAUwCgAAAAHAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPvZM9b4FRFMf/3l8iBrQSSSPB4AP4AEbL05h08A0YOndl6tLRZjGYBRGDwWiwiUjEIBIv9dAgqLfQe6/baj3VRiP9JSf3nnPv/efcc\u002B6VgZBOp\u002B/IECemp/4fmBN7vBWECBPM5/N9t9v9arFYbqh/LsPhsFOr1TQ\u002Bn\u002B9KTgNarZZo/U2MYjabbUTDTOdM8JL8n2Cv10M0GkUwGEQqleLR31Hy8YN6vY7lcolWqwWr1Qq/3494PA6n08l3HNDpdHC5XNzbI8mQClYqFTSbTajVatowLBYLFju2RqPBTx1gz6ZYLG49Hg8LvNPtdpFMJtHpdOBwOBAOh/nK95TLZXi9XvlJwe12i/l8jtVqxa5G7SfeBU82RU6WDAYDTCYTE8vlcgiFQkgkEphOp3yXFElTqtUqZrMZ9w5ks1kmWCqVUCgUYLPZYDQaQX4Y37FHkqEoimi32xLb7XbQ6/dfvd/vs9hgMGD\u002BZyQZkjrw2VfG4zFisRjsdjsCgQB7Ut9xsinHbDYbrNdrKBQKqFQqyGTs6Ae/NuUYpVLJmkPf5rHYZ5ggrQ\u002B1S8AEyVWeR6ORSN/eudAzk8nkhWiI1Ge5ZzKZe41G80Bqc039cyH1nZDvGREE4YmHLgXwBtoRze89YD5sAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-03-24T06:37:33.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:37:33.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "app.py",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\app.py",
               "RelativeDocumentMoniker": "Gallery\\app.py",
-              "ToolTip": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\app.py*",
-              "RelativeToolTip": "Gallery\\app.py*",
+              "ToolTip": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\app.py",
+              "RelativeToolTip": "Gallery\\app.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-03-24T06:25:27.443Z",
@@ -102,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\static\\styles.css",
               "RelativeDocumentMoniker": "Gallery\\static\\styles.css",
@@ -110,12 +140,11 @@
               "RelativeToolTip": "Gallery\\static\\styles.css",
               "ViewState": "AgIAAHIAAAAAAAAAAAAUwJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-24T07:30:07.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T07:30:07.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "layout.tpl",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\views\\layout.tpl",
               "RelativeDocumentMoniker": "Gallery\\views\\layout.tpl",
@@ -123,12 +152,11 @@
               "RelativeToolTip": "Gallery\\views\\layout.tpl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPvZM9b4FRFMf/3l8iBrQSSSPB4AP4AEbL05h08A0YOndl6tLRZjGYBRGDwWiwiUjEIBIv9dAgqLfQe6/baj3VRiP9JSf3nnPv/efcc\u002B6VgZBOp\u002B/IECemp/4fmBN7vBWECBPM5/N9t9v9arFYbqh/LsPhsFOr1TQ\u002Bn\u002B9KTgNarZZo/U2MYjabbUTDTOdM8JL8n2Cv10M0GkUwGEQqleLR31Hy8YN6vY7lcolWqwWr1Qq/3494PA6n08l3HNDpdHC5XNzbI8mQClYqFTSbTajVatowLBYLFju2RqPBTx1gz6ZYLG49Hg8LvNPtdpFMJtHpdOBwOBAOh/nK95TLZXi9XvlJwe12i/l8jtVqxa5G7SfeBU82RU6WDAYDTCYTE8vlcgiFQkgkEphOp3yXFElTqtUqZrMZ9w5ks1kmWCqVUCgUYLPZYDQaQX4Y37FHkqEoimi32xLb7XbQ6/dfvd/vs9hgMGD\u002BZyQZkjrw2VfG4zFisRjsdjsCgQB7Ut9xsinHbDYbrNdrKBQKqFQqyGTs6Ae/NuUYpVLJmkPf5rHYZ5ggrQ\u002B1S8AEyVWeR6ORSN/eudAzk8nkhWiI1Ge5ZzKZe41G80Bqc039cyH1nZDvGREE4YmHLgXwBtoRze89YD5sAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-03-24T06:37:24.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:37:24.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "index.tpl",
               "DocumentMoniker": "C:\\Users\\Kirieshka\\source\\repos\\Gallery\\Gallery\\views\\index.tpl",
               "RelativeDocumentMoniker": "Gallery\\views\\index.tpl",
@@ -136,8 +164,7 @@
               "RelativeToolTip": "Gallery\\views\\index.tpl",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHeSURBVDhPvZM9b4FRFMf/3l8iBrQSSSPB4AP4AEbL05h08A0YOndl6tLRZjGYBRGDwWiwiUjEIBIv9dAgqLfQe6/baj3VRiP9JSf3nnPv/efcc\u002B6VgZBOp\u002B/IECemp/4fmBN7vBWECBPM5/N9t9v9arFYbqh/LsPhsFOr1TQ\u002Bn\u002B9KTgNarZZo/U2MYjabbUTDTOdM8JL8n2Cv10M0GkUwGEQqleLR31Hy8YN6vY7lcolWqwWr1Qq/3494PA6n08l3HNDpdHC5XNzbI8mQClYqFTSbTajVatowLBYLFju2RqPBTx1gz6ZYLG49Hg8LvNPtdpFMJtHpdOBwOBAOh/nK95TLZXi9XvlJwe12i/l8jtVqxa5G7SfeBU82RU6WDAYDTCYTE8vlcgiFQkgkEphOp3yXFElTqtUqZrMZ9w5ks1kmWCqVUCgUYLPZYDQaQX4Y37FHkqEoimi32xLb7XbQ6/dfvd/vs9hgMGD\u002BZyQZkjrw2VfG4zFisRjsdjsCgQB7Ut9xsinHbDYbrNdrKBQKqFQqyGTs6Ae/NuUYpVLJmkPf5rHYZ5ggrQ\u002B1S8AEyVWeR6ORSN/eudAzk8nkhWiI1Ge5ZzKZe41G80Bqc039cyH1nZDvGREE4YmHLgXwBtoRze89YD5sAAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-03-24T06:37:12.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:37:12.002Z"
             }
           ]
         }
