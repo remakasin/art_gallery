@@ -1,0 +1,156 @@
+/* Сброс стандартных отступов и шрифтов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Основной фон страницы */
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+    font-size: 16px;
+}
+
+/* Заголовок страницы */
+h1, h2 {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Навигация */
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    nav a {
+        color: #f1f1f1;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 0 10px;
+        text-transform: uppercase;
+        transition: color 0.3s ease;
+    }
+
+        nav a:hover {
+            color: #ff6600;
+        }
+
+/* Контейнер */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Заголовок и текст на главной */
+main h2 {
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+/* Основной блок с изображениями */
+.gallery-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 40px;
+}
+
+    .gallery-images img {
+        border-radius: 10px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+    }
+
+        .gallery-images img:hover {
+            transform: scale(1.05);
+        }
+
+/* Таблица коллекции */
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+th {
+    background-color: #222;
+}
+
+td img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+    td img:hover {
+        transform: scale(1.1);
+    }
+
+/* Форма для контактов */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    width: 100%;
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #e65c00;
+    }
+
+/* Подвал */
+footer {
+    background-color: #222;
+    color: #f1f1f1;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .gallery-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 80%;
+    }
+}
