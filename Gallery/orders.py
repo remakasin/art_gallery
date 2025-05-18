@@ -27,7 +27,7 @@ def orders():
         phone = request.forms.get('phone').strip()
 
         if not name or not description or not is_valid_phone(phone):
-            return template('orders', orders=load_orders(), error="Все поля обязательны. Телефон должен быть в формате +7(999)123-45-67")
+            return template('orders', orders=load_orders(), error="All fields are required. Phone must be in the format +7(999)123-45-67.")
         
         orders = load_orders()
         orders.append({
