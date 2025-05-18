@@ -15,6 +15,7 @@
                 <a href="/">Home</a>
                 <a href="/collection">Collection</a>
                 <a href="/contact">Contact</a>
+                <a href="/orders">ќформление заказов</a> <!-- добавленна€ ссылка -->
             </nav>
         </div>
     </header>
