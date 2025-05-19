@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        /* Кнопка "Назад в меню" (в виде настоящей кнопки, справа) */
         .back-button {
             position: absolute;
             top: 20px;
@@ -31,10 +30,10 @@
             color: #fff;
         }
 
-        /* Анимация появления карточек заказов */
         .orders-list li {
             animation: fadeInUp 0.6s ease forwards;
             opacity: 0;
+            margin-bottom: 1em;
         }
 
         @keyframes fadeInUp {
@@ -48,7 +47,6 @@
             }
         }
 
-        /* Дополнительно для мобильной адаптивности */
         @media (max-width: 768px) {
             .back-button {
                 font-size: 13px;
@@ -79,11 +77,12 @@
 <main>
     <section class="orders-list">
         <ul>
-            % for order in orders:
+            % for i, order in enumerate(orders, 1):
                 <li>
-                    <strong>📦 Заказ: {{ order['name'] }}</strong>
-                    <span>📝 {{ order['description'] }}</span>
-                    <em>📞 {{ order['phone'] }}</em>
+                    <strong>👤 Имя: {{ order['name'] }}</strong><br>
+                    <span>🔢 № заказа: {{ i }}</span><br>
+                    <span>📝 Описание: {{ order['description'] }}</span><br>
+                    <em>📞 Телефон: {{ order['phone'] }}</em>
                 </li>
             % end
         </ul>
@@ -102,8 +101,7 @@
                 <input type="text" id="name" name="name" required
                        pattern="[A-Za-z]{2,50}"
                        title="Только латинские буквы, от 2 до 50 символов, без пробелов и цифр">
-             </div>
-
+            </div>
 
             <div class="form-group">
                 <label for="description">Описание:</label>
@@ -112,16 +110,12 @@
                        title="От 8 до 100 символов">
             </div>
 
-
-
-
             <div class="form-group">
                 <label for="phone">Телефон:</label>
                 <input type="text" id="phone" name="phone" placeholder="+7(999)123-45-67" required
                        pattern="\+7\(\d{3}\)\d{3}-\d{2}-\d{2}"
                        title="Введите номер в формате +7(999)123-45-67">
             </div>
-
 
             <button type="submit">📨 Отправить заказ</button>
         </form>
