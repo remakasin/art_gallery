@@ -5,33 +5,7 @@ from orders import orders
 # Create an instance of the application
 app = Bottle()
 
-orders = [
-    {
-        'name': '#1001',
-        'description': 'Website development',
-        'phone': '+1(555)123-4567'
-    },
-    {
-        'name': '#1002',
-        'description': 'Mobile app design',
-        'phone': '+1(555)987-6543'
-    },
-    {
-        'name': '#1003',
-        'description': 'SEO optimization',
-        'phone': '+1(555)456-7890'
-    },
-    {
-        'name': '#1004',
-        'description': 'E-commerce platform',
-        'phone': '+1(555)789-0123'
-    },
-    {
-        'name': '#1005',
-        'description': 'Content marketing',
-        'phone': '+1(555)234-5678'
-    }
-]
+orders = []
 
 # Route for the homepage
 @app.route('/')

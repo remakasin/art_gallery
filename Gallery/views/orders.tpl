@@ -98,19 +98,30 @@
 
         <form action="/orders" method="post" class="order-form">
             <div class="form-group">
-                <label for="name">Имя / Номер заказа:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required
+                       pattern="[A-Za-z]{2,50}"
+                       title="Только латинские буквы, от 2 до 50 символов, без пробелов и цифр">
+             </div>
+
 
             <div class="form-group">
                 <label for="description">Описание:</label>
-                <input type="text" id="description" name="description" required>
+                <input type="text" id="description" name="description" required
+                       pattern=".{8,100}"
+                       title="От 8 до 100 символов">
             </div>
+
+
+
 
             <div class="form-group">
                 <label for="phone">Телефон:</label>
-                <input type="text" id="phone" name="phone" placeholder="+7(999)123-45-67" required>
+                <input type="text" id="phone" name="phone" placeholder="+7(999)123-45-67" required
+                       pattern="\+7\(\d{3}\)\d{3}-\d{2}-\d{2}"
+                       title="Введите номер в формате +7(999)123-45-67">
             </div>
+
 
             <button type="submit">📨 Отправить заказ</button>
         </form>
