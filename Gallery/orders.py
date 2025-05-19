@@ -6,6 +6,7 @@ import re
 app = Bottle()
 DATA_FILE = 'orders.json'
 
+
 def load_orders():
     if not os.path.exists(DATA_FILE):
         return []
