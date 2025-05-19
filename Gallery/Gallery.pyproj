@@ -19,6 +19,7 @@
     <Name>Gallery</Name>
     <RootNamespace>Gallery</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +31,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="orders.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="routes.py" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +79,9 @@
     <Content Include="views\contact.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
+    <Content Include="views\orders.tpl">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

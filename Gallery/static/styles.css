@@ -1,4 +1,4 @@
-/* Сброс стандартных отступов и шрифтов */
+/* Сброс стилей и базовые настройки */
 * {
     margin: 0;
     padding: 0;
@@ -6,151 +6,211 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Основной фон страницы */
 body {
     background-color: #121212;
-    color: #f1f1f1;
+    color: #e0e0e0;
     font-size: 16px;
+    line-height: 1.6;
 }
 
-/* Заголовок страницы */
-h1, h2 {
-    color: #fff;
-    font-weight: 700;
-}
-
-/* Навигация */
-nav {
-    margin-top: 20px;
-    text-align: center;
-}
-
-    nav a {
-        color: #f1f1f1;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 18px;
-        margin: 0 10px;
-        text-transform: uppercase;
-        transition: color 0.3s ease;
-    }
-
-        nav a:hover {
-            color: #ff6600;
-        }
-
-/* Контейнер */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* Заголовок и текст на главной */
-main h2 {
-    margin-top: 40px;
-    font-size: 2rem;
-}
-
-/* Основной блок с изображениями */
-.gallery-images {
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    margin-top: 40px;
-}
-
-    .gallery-images img {
-        border-radius: 10px;
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease;
-    }
-
-        .gallery-images img:hover {
-            transform: scale(1.05);
-        }
-
-/* Таблица коллекции */
-table {
-    width: 100%;
-    margin-top: 40px;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 20px;
-    text-align: center;
-    border: 1px solid #444;
-}
-
-th {
-    background-color: #222;
-}
-
-td img {
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-    td img:hover {
-        transform: scale(1.1);
-    }
-
-/* Форма для контактов */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-input[type="text"], input[type="email"], textarea {
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #555;
-    width: 100%;
-    background-color: #121212;
-    color: #f1f1f1;
-}
-
-button {
-    padding: 12px 20px;
-    background-color: #ff6600;
+/* Кнопка "Назад в меню" */
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff9800;
     color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-    button:hover {
-        background-color: #e65c00;
+    .back-button:hover {
+        background-color: #e67e00;
+        transform: scale(1.05);
+        color: #fff;
     }
+
+
+/* Шапка */
+header {
+    position: relative;
+    padding: 60px 20px 20px;
+    background-color: #1c1c1c;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+    header h1 {
+        color: #ffffff;
+        font-size: 2.5rem;
+    }
+
+/* Заголовок формы */
+h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* Список заказов */
+.orders-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+    .orders-list ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .orders-list li {
+        background-color: #1e1e1e;
+        border: 1px solid #2a2a2a;
+        border-radius: 12px;
+        padding: 24px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+        .orders-list li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        .orders-list li strong {
+            display: block;
+            font-size: 20px;
+            color: #ffa726;
+            margin-bottom: 10px;
+        }
+
+        .orders-list li span {
+            font-size: 16px;
+            display: block;
+            color: #e0e0e0;
+        }
+
+        .orders-list li em {
+            font-size: 14px;
+            color: #aaa;
+            font-style: normal;
+            display: block;
+            margin-top: 6px;
+        }
+
+/* Секция формы */
+.order-form-section {
+    padding: 60px 20px;
+    background-color: #181818;
+}
+
+.order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        margin-bottom: 8px;
+        color: #ccc;
+        font-weight: 500;
+    }
+
+    .form-group input {
+        padding: 12px;
+        border: 1px solid #333;
+        border-radius: 6px;
+        background-color: #1c1c1c;
+        color: #fff;
+        font-size: 16px;
+    }
+
+        .form-group input:focus {
+            border-color: #ff9800;
+            outline: none;
+        }
+
+.order-form button {
+    padding: 14px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+    .order-form button:hover {
+        background-color: #e67e00;
+        transform: scale(1.03);
+    }
+
+/* Сообщение об ошибке */
+.error-message {
+    color: #ff4d4d;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0 20px;
+}
 
 /* Подвал */
 footer {
-    background-color: #222;
-    color: #f1f1f1;
-    padding: 40px 0;
+    background-color: #1a1a1a;
+    padding: 30px 0;
     text-align: center;
-    margin-top: 40px;
+    color: #999;
+    font-size: 14px;
+    margin-top: 60px;
 }
 
-/* Адаптивность для мобильных устройств */
+/* Адаптивность */
 @media (max-width: 768px) {
-    .gallery-images {
-        flex-direction: column;
-        align-items: center;
+    .back-button {
+        font-size: 13px;
+        padding: 6px 12px;
     }
 
-    form {
-        width: 80%;
+    header h1 {
+        font-size: 2rem;
     }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .order-form {
+        padding: 25px;
+    }
+}
+
+.container-center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

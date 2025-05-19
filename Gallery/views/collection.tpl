@@ -39,6 +39,20 @@
                         <img src="/static/images/starry-night.jpg" alt="Starry Night" width="150">
                     </td>
                 </tr>
+
+                <tr>
+                    <td>
+                        <img src="/static/images/van_gogh_profile.jpg" alt="Vincent Van Gogh" width="100">
+                        <p>Vincent Van Gogh</p>
+                    </td>
+                    <td>
+                        <p>Post-impressionist, known for his vivid colors and expressive brushwork.</p>
+                    </td>
+                    <td>
+                        <img src="/static/images/starry-night.jpg" alt="Starry Night" width="150">
+                    </td>
+                </tr>
+
                 <tr>
                     <td>
                         <img src="/static/images/bierstadt_profile.jpg" alt="Albert Bierstadt" width="100">

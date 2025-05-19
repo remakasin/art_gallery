@@ -1,7 +1,11 @@
-from bottle import Bottle, route, run, template, static_file, request # type: ignore
+from bottle import Bottle, route, run, template, static_file, request
+
+from orders import orders
 
 # Create an instance of the application
 app = Bottle()
+
+orders = []
 
 # Route for the homepage
 @app.route('/')
@@ -17,6 +21,32 @@ def collection():
 @app.route('/contact')
 def contact():
     return template('views/contact.tpl')
+
+@app.route('/orders')
+def show_orders():
+    error = request.query.get('error', '')
+    return template('views/orders.tpl', orders=orders, error=error)
+
+@app.post('/orders')
+def place_order():
+    name = request.forms.get('name')
+    description = request.forms.get('description')
+    phone = request.forms.get('phone')
+
+    if not name or not phone:
+        return template('views/orders.tpl', orders=orders, error="Имя и телефон обязательны!")
+
+    # Добавляем новый заказ
+    new_order = {
+        'name': name,
+        'description': description,
+        'phone': phone
+    }
+    orders.append(new_order)
+
+    # Перенаправляем обратно на страницу заказов
+    return template('views/orders.tpl', orders=orders, error=None)
+
 
 # Route for handling contact form submission
 @app.route('/submit_contact', method='POST')
